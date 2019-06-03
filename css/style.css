@@ -1,0 +1,42 @@
+.calculator{
+    margin:auto;
+    border:2px solid #333;
+    padding: 10px;
+    width:250px;
+}
+.calculator input{
+    cursor: pointer;
+    
+}
+#display{
+    background: #BCCD95;
+    width: 220px;
+    color: #fff;
+    height: 35px;
+}
+#display input{
+    position: relative;
+    left:0;
+    top:0;
+    background: #229999;
+    color:#fff;
+}
+.button{
+    width:45px;
+    height:45px;
+    padding:2px;
+    text-align: center;
+    cursor: pointer;
+}
+.button.top{
+    color: #fff;
+    background: #222;
+}
+.button.sign{
+    background: rgb(247, 3, 3);
+    color: #fff;
+}
+.button.number{
+    background: rgb(0, 0, 0);
+    color: #fff;
+}
